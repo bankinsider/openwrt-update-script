@@ -352,6 +352,7 @@ case $num2 in
 		cd ${path}/lede
 		sed -i 's/#src-git helloworld/src-git helloworld/g'  ${path}/lede/feeds.conf.default
 		sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' ${path}/lede/feeds.conf.default
+		sed -i '$a src-git sirpdboy https://github.com/sirpdboy/sirpdboy-package' ${path}/lede/feeds.conf.default
 	fi
 	#拉去第三方的code
 	git clone https://github.com/vernesong/OpenClash.git ${path}/lede/package/luci-app-openclash
