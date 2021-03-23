@@ -28,6 +28,8 @@ Openwrt 固件一键检测更新/编译固件脚本！
 4.一键脚本运行：
 
     cd && bash -c "$(wget -O- https://git.io/Jt8nn)"
+      替换  cd && bash -c "$(wget -O- https://github.com/bankinsider/openwrt-update-script/blob/main/main.sh)"
+ 
 
 5.若有问题讨论群：https://t.me/openwrt_lede_v2ray_plugin
 
